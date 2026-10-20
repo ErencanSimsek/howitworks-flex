@@ -1,0 +1,22 @@
+:root{
+    --yellow:#e0f8c7;
+    --green:#B7D894;
+    --blue:#36415A;
+    --black:#202734;
+}
+
+/*backround*/
+.bg-yellow{background-color: var(--yellow);}
+.bg-green{background-color: var(--green);}
+
+/*button*/
+.btn{
+    background-color: var(--blue);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px;
+}
+.btn:hover{
+    background-color: var(--black);
+}
